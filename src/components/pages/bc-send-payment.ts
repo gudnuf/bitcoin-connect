@@ -231,6 +231,10 @@ export class SendPayment extends withTwind()(BitcoinConnectElement) {
 
     let decodedInvoice: Invoice;
     try {
+      if (this.invoice.startsWith('lno1')) {
+        console.log('this.invoice', this.invoice);
+        // decodedInvoice =
+      }
       decodedInvoice = new Invoice({pr: this.invoice});
     } catch (error) {
       console.error(error);

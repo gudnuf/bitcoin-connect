@@ -8,6 +8,7 @@ import './pages/bc-lnbits.js';
 import './pages/bc-umbrel.js';
 import './pages/bc-send-payment.js';
 import './pages/bc-new-wallet.js';
+import './pages/bc-clnrest.js';
 
 export const routes = {
   '/start': html`<bc-start class="flex w-full"></bc-start>`,
@@ -16,6 +17,7 @@ export const routes = {
   '/mutiny': html`<bc-mutiny class="flex w-full"></bc-mutiny>`,
   '/lnbits': html`<bc-lnbits class="flex w-full"></bc-lnbits>`,
   '/umbrel': html`<bc-umbrel class="flex w-full"></bc-umbrel>`,
+  '/clnrest': html`<bc-clnrest class="flex w-full"></bc-clnrest>`,
   /*(params) => {
   '/send-payment': html`<bc-send-payment
     invoice=${params.invoice}"

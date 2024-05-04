@@ -1,3 +1,4 @@
+import {ClnrestConnector} from './ClnrestConnector';
 import {ExtensionConnector} from './ExtensionConnector';
 import {LnbitsConnector} from './LnbitsConnector';
 import {LNCConnector} from './LNCConnector';
@@ -11,4 +12,5 @@ export const connectors = {
   'nwc.umbrel': NWCConnector,
   lnbits: LnbitsConnector,
   lnc: LNCConnector,
+  clnrest: ClnrestConnector,
 };

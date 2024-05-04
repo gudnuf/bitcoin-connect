@@ -26,6 +26,7 @@ export class ConnectorList extends withTwind()(BitcoinConnectElement) {
       }
       connectors.push(html`<bc-lnbits-connector></bc-lnbits-connector>`);
       connectors.push(html`<bc-lnc-connector></bc-lnc-connector>`);
+      connectors.push(html`<bc-clnrest-connector></bc-clnrest-connector>`);
     }
 
     return html`

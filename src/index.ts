@@ -1,6 +1,7 @@
 import {webln} from '@getalby/sdk';
 import {LNCWebLNProvider} from './connectors/LNCConnector';
 import {LnbitsWebLNProvider} from './connectors/LnbitsConnector';
+import {ClnrestWeblnConnector} from './connectors/ClnrestConnector';
 import './state/boot';
 
 export * from './components/bc-button';
@@ -20,6 +21,7 @@ export const WebLNProviders = {
   NostrWebLNProvider: webln.NostrWebLNProvider,
   LNCWebLNProvider,
   LnbitsWebLNProvider,
+  ClnrestWeblnConnector,
 };
 
-export {PaymentMethods} from './types/PaymentMethods';
+// export {PaymentMethods} from './types/PaymentMethods';

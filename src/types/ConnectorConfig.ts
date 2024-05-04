@@ -6,4 +6,6 @@ export type ConnectorConfig = {
   nwcUrl?: string;
   lnbitsInstanceUrl?: string;
   lnbitsAdminKey?: string;
+  clnrestHost?: string;
+  clnrestRune?: string;
 };
