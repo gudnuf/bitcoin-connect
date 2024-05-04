@@ -24,4 +24,4 @@ export const WebLNProviders = {
   ClnrestWeblnConnector,
 };
 
-// export {PaymentMethods} from './types/PaymentMethods';
+export {PaymentMethods} from './types/PaymentMethods';
